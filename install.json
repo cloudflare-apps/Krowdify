@@ -19,7 +19,7 @@
         "title": "Content Container",
         "description": "Where on the page is the content your users should comment on?",
         "type": "string",
-        "format": "location",
+        "format": "selector",
         "default": "body",
         "order": 2
       }

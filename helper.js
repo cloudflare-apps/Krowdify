@@ -2,12 +2,12 @@
 
   var options = INSTALL_OPTIONS;
 
-  if (!document.querySelector || !document.querySelector(options.container) || !options.id)
+  if (!document.querySelector || !document.querySelector(options.container) || !options.id || !options.container)
     return;
 
   var tag = document.createElement('script');
   tag.onload = function(){
-    krowdify.container = options.containuer;
+    krowdify.container = options.container;
     krowdify.main();
   }
 

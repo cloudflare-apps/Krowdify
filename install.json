@@ -12,13 +12,16 @@
       "id": {
         "title": "Krowdify Install ID",
         "description": "Get this from Krowdify (for example '54dc2860e9b6cc0920fee97b')",
-        "type": "string"
+        "type": "string",
+        "order": 1
       },
       "container": {
         "title": "Content Container",
         "description": "Where on the page is the content your users should comment on?",
         "type": "string",
-        "format": "element"
+        "format": "location",
+        "default": "body",
+        "order": 2
       }
     }
   }
